@@ -1,0 +1,37 @@
+
+.grid {
+
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 100px auto 200px;
+    grid-template-areas: 
+        'header header'
+        'leftbar main'
+        'footer footer';
+  
+}
+
+.page-header {
+    grid-area: header;
+}
+
+.page-leftbar {
+    grid-area: leftbar;
+}
+
+.page-main{
+    grid-area: main;
+}
+
+.page-footer {
+    grid-area: footer;
+}
+
+.content {
+    background-color: yellow;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+

@@ -1,0 +1,43 @@
+.box {
+    position: absolute;
+}
+
+.image {
+    width: 100%;
+    
+}
+
+.live {
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    padding: 8px 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+.views {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 8px 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.top-header {
+    color: white;
+    background-color: rgb(70, 70, 167);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.content {
+    padding-top: 100px;
+}

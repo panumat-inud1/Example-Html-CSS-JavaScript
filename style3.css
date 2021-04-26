@@ -1,0 +1,25 @@
+.html, body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.landin {
+
+    background-color: rgb(19, 20, 20);
+    background-image: url(icon/1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 180px 400px;
+    margin-right: 50%;
+    background-repeat: no-repeat
+       
+       
+       
+}
+
+.title {
+    color: white;
+    text-align: center;
+}

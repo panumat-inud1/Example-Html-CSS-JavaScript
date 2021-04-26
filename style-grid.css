@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    columns: 20px;
+    row-gap: 20px;
+    justify-items: center;
+    align-items: center;
+  
+}
+.content {
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 2px;
+
+}
+
